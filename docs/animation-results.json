@@ -1,0 +1,16 @@
+{
+  "passed": 10,
+  "checks": [
+    "Replay visibly assembles six towers and moves the camera, then settles",
+    "Idle scene stops scheduling animation frames",
+    "Automatic orbit moves the map; pause stops it and updates pressed state",
+    "Zoom is interpolated over time and reset returns to the home camera",
+    "Domain selection animates the focus treatment and updates the detail panel",
+    "Dragging interrupts automatic orbit and hands camera control to the user",
+    "Hidden-tab handling suspends rendering and resumes when visible",
+    "Live reduced-motion preference stops optional motion while domain selection remains usable",
+    "Animated map, labels, and controls remain within bounds at 320, 390, 820 and 1440 px",
+    "Leaving the map disposes the animation loop; no uncaught JavaScript errors"
+  ],
+  "errors": []
+}

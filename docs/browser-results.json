@@ -1,0 +1,22 @@
+{
+  "passed": 16,
+  "checks": [
+    "Desktop: WebGL renders, sample data is labeled, and page has no horizontal overflow",
+    "All six map labels select a domain and update its detail panel",
+    "3D zoom in/out, drag rotation, and camera reset work",
+    "Personal empty state and simulated results remain separate",
+    "Form validation, all target options, and draft persistence after reload work",
+    "Step navigation and final-submit guard take the user to missing answers",
+    "All 18 answers produce index 75, correct K1 conclusion, ten reasoning steps, and one real history entry",
+    "Learning checklist, valid JSON download, and print action work",
+    "Results and practice state persist; history selection, rule page, modal cancel and Escape work",
+    "Indicator link, keyboard Space activation, and visible focus ring work",
+    "All four pages have no horizontal overflow at 320, 390, 540, 760, 820, 1024 and 1440 px",
+    "Mobile navigation closes by button, backdrop and Escape; mobile radio controls work",
+    "Confirmed reset clears only app draft, history, and checklist",
+    "Malformed storage and denied/full storage show actionable error states",
+    "Unavailable WebGL falls back to a usable domain list on mobile",
+    "No uncaught JavaScript errors during normal end-to-end workflow"
+  ],
+  "errors": []
+}
